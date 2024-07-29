@@ -15,9 +15,12 @@
 		"@vueuse/components": "^10.11.0",
 		"@vueuse/core": "^10.11.0",
 		"@vueuse/nuxt": "^10.11.0",
+		"maska": "^3.0.0",
 		"moment-timezone": "^0.5.45",
 		"nuxt": "^3.12.4",
-		"vue": "^3.4.33"
+		"vue": "^3.4.33",
+		"vue3-toastify": "^0.2.2",
+		"yup": "^1.4.0"
 	},
 	"devDependencies": {
 		"@nuxtjs/google-fonts": "^3.2.0",

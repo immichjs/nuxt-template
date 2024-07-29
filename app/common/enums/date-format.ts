@@ -1,0 +1,12 @@
+export enum EDateFormat {
+	ISO8601 = "YYYY-MM-DDTHH:mm:ss",
+	ISO8601_CUSTOM = "YYYY-MM-DD HH:mm:ss",
+	ISO8601_WITHOUT_TIME = "YYYY-MM-DD",
+	RFC3339 = "YYYY-MM-DDTHH:mm:ssZ",
+	UTC = "YYYY-MM-DDTHH:mm:ssZ",
+	EPOCH_TIMESTAMP = "X",
+	AM_PM = "hh:mm:ss A",
+	AMERICAN = "MM/DD/YYYY",
+	EUROPE = "DD/MM/YYYY",
+	CUSTOM = "DD/MM/YYYY HH:mm:ss",
+}

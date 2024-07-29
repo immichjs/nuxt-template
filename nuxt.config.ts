@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
-	ssr: false,
 	devtools: { enabled: true },
 	srcDir: "app",
 	components: [
@@ -47,18 +46,13 @@ export default defineNuxtConfig({
 		storesDirs: ["./app/stores/**"],
 		disableVuex: true,
 	},
-	plugins: ["./app/plugins/api.ts"],
+	plugins: ["./app/plugins/api.ts", "./app/plugins/maska.ts"],
 	googleFonts: {
 		families: {
-			Roboto: {
-				wght: "100..900",
-			},
 			Montserrat: {
-				wght: "100..900",
-			},
-			Raleway: {
 				wght: "100..900",
 			},
 		},
 	},
+	css: ["vue3-toastify/dist/index.css", "assets/css/tailwind.css"],
 });

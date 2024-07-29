@@ -1,5 +1,9 @@
+<script setup lang="ts">
+definePageMeta({
+	layout: "authenticated",
+});
+</script>
+
 <template>
-	<div>
-		<NuxtWelcome />
-	</div>
+	<div>as</div>
 </template>
